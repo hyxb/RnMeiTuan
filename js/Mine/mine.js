@@ -46,8 +46,6 @@ export default class Mine extends Component<Props> {
                         <MineCommonItem title={"右边文字"} rightTitle="wenzhi"/>
                         <MineCommonItem title={"最后一条"}/>
                     </View>
-
-
                 </ScrollView>
 
             </View>

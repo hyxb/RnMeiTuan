@@ -22,7 +22,7 @@ export default class Luancher extends Component<Props> {
             this.props.navigator.replace({
                 component:Main
             })
-        },100)
+        },3000)
     }
 
     render() {
@@ -35,7 +35,7 @@ export default class Luancher extends Component<Props> {
                 />
                 <Image source={require('../../res/images/luancher.png')}  style={styles.luanchImageStyle}/>
             </View>
-           );
+        );
     }
 
 
